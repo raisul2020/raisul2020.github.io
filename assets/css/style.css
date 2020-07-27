@@ -1750,3 +1750,15 @@ section {
 #portfolio-details .portfolio-container a:hover{
   color: #18d26e;
 }
+
+.portfolio-details-btn{
+  font-size: 18px;
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+}
+.portfolio-details-btn:hover{
+  background: #13a456; 
+}
