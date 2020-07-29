@@ -1791,7 +1791,8 @@ section {
 
 #service-details,
 #portfolio-details,
-#products-details {
+#products-details,
+#holidays-details {
   margin: 30px 0;
 }
 
