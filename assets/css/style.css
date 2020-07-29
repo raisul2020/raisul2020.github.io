@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 18px 0;
 }
 
-#header .logo {
+/* #header .logo {
   font-size: 34px;
   margin: 0;
   padding: 0;
@@ -137,6 +137,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
+  padding-left: 10px;
+  border-left: 4px solid #18d26e;
+} */
+
+#header .logo {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -3px;
   padding-left: 10px;
   border-left: 4px solid #18d26e;
 }
@@ -627,7 +639,7 @@ section {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+  background: #3a3a3a;
 }
 
 #featured-services .box {
@@ -635,7 +647,7 @@ section {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  /* background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%); */
 }
 
 #featured-services i {
@@ -1288,21 +1300,21 @@ section {
   background-color: #18d26e;
 }
 
-/* Team Section
+/* Products Section
 --------------------------------*/
-#team {
+#products {
   background: #fff;
   padding: 60px 0;
 }
 
-#team .member {
+#products .member {
   text-align: center;
   margin-bottom: 20px;
   background: #000;
   position: relative;
 }
 
-#team .member .member-info {
+#products .member .member-info {
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -1315,50 +1327,50 @@ section {
   transition: 0.2s;
 }
 
-#team .member .member-info-content {
+#products .member .member-info-content {
   margin-top: -50px;
   transition: margin 0.2s;
 }
 
-#team .member:hover .member-info {
+#products .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
+#products .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
 }
 
-#team .member h4 {
+#products .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#team .member span {
+#products .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#team .member .social {
+#products .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#products .member .social a {
   transition: none;
   color: #fff;
 }
 
-#team .member .social a:hover {
+#products .member .social a:hover {
   color: #18d26e;
 }
 
-#team .member .social i {
+#products .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
@@ -1718,7 +1730,12 @@ section {
   list-style-type: none;
 }
 
-#service-details i {
+#products-details ul {
+  list-style-type: none;
+}
+
+#service-details i,
+#products-details i {
   color: #18d26e;
 }
 
@@ -1768,4 +1785,26 @@ section {
   line-height: 1.5 !important;
   margin-bottom: 0;
   margin-top: 8px;
+}
+
+.logo-title{}
+
+#service-details,
+#portfolio-details,
+#products-details {
+  margin: 30px 0;
+}
+
+.blog-header{
+  font-size: 20px;
+}
+
+.blog-title{
+  font-size: 15px;
+  color: #18d36e;
+}
+
+.blog-paragraph{
+  font-size: 14px;
+  margin-bottom: 10px;
 }
